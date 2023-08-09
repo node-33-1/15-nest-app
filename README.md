@@ -18,4 +18,4 @@ npx create-nest-postgres <nombre-del-proyecto>
 Una vez tengas el proyecto clonado, debes:
 
 * Crear el .env con la variable ```DATABASE_URL```
-* Correr el proyecto con ```npm run start:dev```
+* Correr el proyecto con ```npm run dev```
