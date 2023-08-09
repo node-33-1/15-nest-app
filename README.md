@@ -6,17 +6,16 @@
 
 Contiene todas las configuraciones para trabajar en nest con Postgres, TypeOrm y el Class Validator.
 
-## Ejecutar en modo desarrollo
+### Bajar el proyecto
 Puedes bajarlo e instalarlo con el paquete de npx 
 ```
 npx create-nest-postgres <nombre-del-proyecto>
 ```
 
-También puedes correr
-* Clonar el proyecto
-* Instalar las dependencias
+
+### Correr el proyecto
 
 Una vez tengas el proyecto clonado, debes:
 
-* Colocar la variable de la url en el .env.example
+* Crear el .env con la variable ```DATABASE_URL```
 * Correr el proyecto con ```npm run start:dev```
