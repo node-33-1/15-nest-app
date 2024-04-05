@@ -1,6 +1,8 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { SongsModule } from './songs/songs.module';
+import { VideogamesModule } from './videogames/videogames.module';
 
 @Module({
   imports: [
@@ -11,6 +13,8 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       autoLoadEntities: true,
       synchronize: true,
     }),
+    SongsModule,
+    VideogamesModule,
   ],
   controllers: [],
   providers: [],
